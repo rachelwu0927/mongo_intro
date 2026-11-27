@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import MangoGame from "@/components/MangoGame";
 import Parallax from "@/components/Parallax";
 import Shop from "@/components/Shop";
 import WelcomeGreeting from "@/components/WelcomeGreeting";
@@ -110,7 +109,7 @@ export default function Home() {
             <p className="mb-6 text-xs tracking-[0.3em] text-muted sm:mb-8">2027 夏季 · 即將開賣</p>
             <Parallax range={8}>
               <h1 className="font-serif text-5xl font-black leading-[1.1] tracking-tight sm:text-7xl lg:text-8xl">
-                玉井愛文，
+                玉井愛文促銷，
                 <br />
                 <span className="text-accent">樹上熟</span>
                 <br />
@@ -349,22 +348,6 @@ export default function Home() {
                   <p className="max-w-xl pb-6 leading-8 text-ink/75">{f.a}</p>
                 </details>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* 接芒果小遊戲 */}
-        <section id="game" className="scroll-mt-20 pb-16 sm:pb-24 lg:pb-32">
-          <SectionLabel no="06">小遊戲</SectionLabel>
-          <div className="grid grid-cols-12 gap-y-10">
-            <div className="col-span-12 md:col-span-4">
-              <h2 className="font-serif text-4xl font-black leading-tight sm:text-5xl">接芒果</h2>
-              <p className="mt-6 leading-8 text-ink/75">
-                芒果熟了會自己掉下來！在 15 秒內用籃子接住越多芒果越好，純屬娛樂，等開賣的時候玩一下。
-              </p>
-            </div>
-            <div className="col-span-12 md:col-span-8">
-              <MangoGame />
             </div>
           </div>
         </section>
