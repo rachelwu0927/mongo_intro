@@ -110,7 +110,7 @@ export default function Home() {
             <p className="mb-6 text-xs tracking-[0.3em] text-muted sm:mb-8">2027 夏季 · 即將開賣</p>
             <Parallax range={8}>
               <h1 className="font-serif text-5xl font-black leading-[1.1] tracking-tight sm:text-7xl lg:text-8xl">
-                玉井愛文促銷，
+                玉井愛文666，
                 <br />
                 <span className="text-accent">樹上熟</span>
                 <br />
